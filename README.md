@@ -23,4 +23,17 @@ The system supports **real-time risk prediction** and improves clinician trust b
 - Patient-specific SHAP and LIME explanations
 - Interactive decision-support interface
 
-
+## 📂 Project Structure
+```bash
+├── app/
+│   ├── StrokeRiskPredictor.py       # Real-time prediction interface
+│   ├── model/                       # Trained model and weights
+│   └── explainability/             # SHAP and LIME explainers
+├── data/
+│   └── stroke_data.csv             # Preprocessed dataset
+├── notebooks/
+│   ├── EDA.ipynb                   # Exploratory data analysis
+│   ├── Model_Training.ipynb        # Model training and evaluation
+│   └── Explainability.ipynb        # SHAP & LIME explainability
+├── README.md
+└── requirements.txt
